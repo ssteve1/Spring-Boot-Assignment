@@ -28,11 +28,13 @@
       <scope>runtime</scope>
       <optional>true</optional>
     </dependency>
+    
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
       <optional>true</optional>
     </dependency>
+    
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
@@ -40,18 +42,43 @@
     </dependency>
     
     <!-- https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-ui -->
+    <!-- Open API dependency-->
+    
    <dependency>
       <groupId>org.springdoc</groupId>
       <artifactId>springdoc-openapi-ui</artifactId>
       <version>1.5.5</version>
     </dependency>
     
+    <!-- Database dependencies  --> 
     
+    <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jdbc -->
+    <dependency>
+       <groupId>org.springframework.boot</groupId>
+       <artifactId>spring-boot-starter-data-jdbc</artifactId>
+    </dependency>
+    
+    <!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
+    <dependency>
+       <groupId>com.mysql</groupId>
+       <artifactId>mysql-connector-j</artifactId>
+    </dependency>
+
    <dependency>
       <groupId>io.github.classgraph</groupId>
       <artifactId>classgraph</artifactId>
       <version>4.8.104</version>
     </dependency>
+    
+      
+        
+        <!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
+     <dependency>
+        <groupId>com.h2database</groupId>
+        <artifactId>h2</artifactId>
+        <scope>test</scope>
+     </dependency>
+
 
 
     

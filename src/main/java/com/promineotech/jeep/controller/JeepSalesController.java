@@ -50,7 +50,7 @@ public interface JeepSalesController {
 				          description = "An unplanned error occurred", 
 				          content = @Content(mediaType = "application/json"))
 				  
-		  },
+		  }, 
 		  parameters = {
 
 				  @Parameter(
@@ -78,7 +78,7 @@ public interface JeepSalesController {
 		  @RequestParam (required = false) 
 		  JeepModel model, 
          @RequestParam (required = false)
-		  JeepModel trim);
+		   String trim);
 
 }
 
